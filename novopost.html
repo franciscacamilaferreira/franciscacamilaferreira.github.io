@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+	<title>Usuário -Lá em casa</title>
+
+    <link href="css/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/font-awesome/css/font-awesome.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	
+  </head>
+  
+   <body class="container">
+<br><br>
+  
+     <header class="row">
+      <div class="col-lg-10">
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a href="index.html#" class="navbar-brand">
+                <img alt="La em Casa Logo" title="Lรก em casa Logo" src="img/camilalogo.png" width="60%">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav navbar-right">
+                
+                <li class="active"><a href="conta.html">CAMILA FERREIRA</a></li>
+
+                <li><a href="login.html">SAIR</a></li>
+				
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+	
+	<div class="row">
+	 <br><br>
+	  <div class="col-lg-12">
+	  
+	    <ul class="nav nav-pills">
+          <li role="presentation"><a href="usuario.html">Gerenciar Postagens</a></li>
+		  
+          <li role="presentation" class="active"><a href="novopost.html">Nova Postagem</a></li>
+        </ul>
+	   </div>
+	 </div>
+	 
+	 <div class="row">
+	  <br><br>
+		<div class="col-lg-10 col-lg-offset-1">
+		  <div class="panel panel-default">
+          <div class="panel-body">
+		   <legend>NOVO POST</legend>
+		    <form>
+              <div class="row">
+                <div class="col-lg-6">
+				 <input type="text" placeholder="TITULO" class="form-control">
+                </div>
+                <div class="col-lg-4">
+                  <select class="form-control">
+                    <option selected>CATEGORIA</option>
+                    <option>Desenvolvimento</option>
+                    <option>Software Livre</option>
+                    <option>Hardware</option>
+                    <option>Design Visual</option>
+                  </select>
+				  </div>
+				  
+				  <div class="col-lg-2">
+                  <select class="form-control">
+				   <option selected>STATUS</option>
+                    <option>Publicado</option>
+                    <option>Rascunho</option>
+				  </select>
+				 </div>
+				 
+				 <div class="col-lg-8">
+                  <br>
+                  <label>Imagem Destacada</label>
+                  <input type="file" class="">
+                </div>
+                </div>
+				
+				  <br>
+              <script>
+              $(document).ready(function() {
+                $('#summernote').summernote();
+              });
+              </script>
+              <div id="summernote">
+                <br>
+                Escreva aqui
+                <br><br>
+              </div>
+			  
+			  <button class="btn btn-success btn-block">PUBLICAR</button>
+            </form>
+		</div> </div> </div> </div>
+		
+		<br><br><br>
+		
+		
+		
+
+
+<footer class="row footer">
+             <div class="col-lg-4">
+			 
+			  <a href="index.html#">
+			  <br>
+          <img alt="" title="" src="img/camilalogo.png" width="60%">
+        </a>
+             </div>
+			 
+		<div class="col-lg-4 text-center">
+		  <br><br>
+		  Lá em casa | 2017
+		  <br><br>
+		</div>
+		
+		<div class="col-lg-4 text-right">
+		 Siga-nos nas Redes Sociais
+		 
+	 <a href="http://instagram.com/" title="Instagram" target="_blank" class="btn btn-default btn-sm"><span class="fa fa-instagram"></span></a>
+		 
+	 <a href="http://facebok.com" title="Facebook" target="_blank" class="btn btn-default btn-sm"><span class="fa fa-facebook"></span></a>
+			
+		</div>
+		</footer>
+  </body>
+</html>
+
+
+
+
+
